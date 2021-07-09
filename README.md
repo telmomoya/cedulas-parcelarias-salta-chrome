@@ -7,3 +7,6 @@ Inyecta un JS para convertir a JPG la imágen de la cédula que viene en formato
 Utiliza la librería tiff.js: https://github.com/seikichi/tiff.js
 
 The LibTIFF is LibTIFF Software License, zlib and additional code are zlib License.
+
+Para agregar a Chrome:
+https://chrome.google.com/webstore/detail/c%C3%A9dulas-parcelarias-inmue/lkjfibmlgoeicmhgojipdmngdcolbmad
