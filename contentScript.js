@@ -7,7 +7,7 @@ const init = function(){
   document.body.appendChild(injectElement);
   
   
-var filename = document.querySelector("#ImagN1 > param:nth-child(8)").value;
+var filename = document.querySelector('[name="Filename"]').value;
 console.log(filename);
 
 var xhr = new XMLHttpRequest();
