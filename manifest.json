@@ -1,15 +1,15 @@
 {
   "name": "Cédulas Parcelarias Inmuebles Salta",
-  "version": "0.0.0.1",
+  "version": "0.0.0.3",
   "description": "Visor para Chrome de Cédulas Parcelarias de la Dirección General de Inmuebles de Salta, por Telmo Moya",
   "content_scripts": [
     {
-      "matches": ["*://*.inmuebles-salta.gov.ar/cedula.asp*","*://inmuebles-salta.gov.ar/cedula.asp*"],
+      "matches": ["*://*.inmuebles-salta.gov.ar/pagina/cedula.asp*", "*://inmuebles-salta.gov.ar/pagina/cedula.asp*", "*://*.inmuebles-salta.gob.ar/pagina/cedula.asp*", "*://inmuebles-salta.gov.ar/pagina/cedula.asp*", "*://*.inmuebles.gov.ar/pagina/cedula.asp*", "*://inmuebles.gov.ar/pagina/cedula.asp*", "*://*.inmuebles.gob.ar/pagina/cedula.asp*", "*://inmuebles.gob.ar/pagina/cedula.asp*"],
       "js": ["contentScript.js","tiff.min.js"],
       "run_at": "document_end"
     }
   ],
-  "host_permissions": ["*://*.inmuebles-salta.gov.ar/cedula.asp*","*://inmuebles-salta.gov.ar/cedula.asp*"],
+  "host_permissions": [ "*://*.inmuebles-salta.gov.ar/pagina/cedula.asp*", "*://inmuebles-salta.gov.ar/pagina/cedula.asp*", "*://*.inmuebles-salta.gob.ar/pagina/cedula.asp*", "*://inmuebles-salta.gov.ar/pagina/cedula.asp*", "*://*.inmuebles.gov.ar/pagina/cedula.asp*", "*://inmuebles.gov.ar/pagina/cedula.asp*", "*://*.inmuebles.gob.ar/pagina/cedula.asp*", "*://inmuebles.gob.ar/pagina/cedula.asp*" ],
   "manifest_version": 3,
     "icons": {
     "16": "icon16.png",
